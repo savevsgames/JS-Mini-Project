@@ -63,6 +63,7 @@ body {
   left: 0;
   overflow: hidden;
   border-radius: 1rem;
+  order: 3;
 }
 
 h1,
@@ -260,3 +261,67 @@ h1 {
     transform: rotate(0deg);
   }
 }
+
+@media screen and (max-width: 1300px) {
+  body {
+    flex-direction: row;
+    gap: 20px;
+    flex: 1 1 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .hand-left {
+    align-self: flex-start;
+    flex: 1 1 45%;
+    margin: 0 10px 0 10px;
+    order: 1;
+    width: 20%;
+  }
+
+  .hand-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    margin: 0 10px 0 10px;
+    flex: 1 1 45%;
+    order: 2;
+
+    width: 20%;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 100%;
+  font-size: 0.8rem;
+}
+
+.player {
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.holy-button {
+  padding: 5px 10px;
+  font-size: 14px;
+
+
+}
+
