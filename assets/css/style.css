@@ -208,6 +208,10 @@ h1 {
   margin: 0 auto;
 }
 
+.larger-text {
+  font-size: 1.5rem;
+}
+
 .hand-left img {
   width: auto;
   max-width: 100%;
