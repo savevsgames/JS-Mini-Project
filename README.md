@@ -2,7 +2,7 @@
 
 ## UPDATE
 
-Project Link: [God of Rock Paper Scissors](https://savevsgames.github.io/JS-Mini-Project/)
+Project Link: [God of Rock Paper Scissors](https://savevsgames.github.io/JS-Mini-Project/index.html)
 
 In this activity, you will work with a group to build a game using only JavaScript.
 
@@ -22,6 +22,7 @@ The completed application should meet the following criteria:
 
 - As a user, I want to see my total wins, ties, and losses after I have finished playing.
 
+- STILL NEED TO ADD THIS - AFTER ANIMATIONS ARE DONE
 - As a user, I want to see how many times I chose each option after I have finished playing.
 
 ### Specifications
